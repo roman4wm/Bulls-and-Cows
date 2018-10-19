@@ -218,9 +218,7 @@ body .post_text_box img.post_image_in_text {
 
 .main2 .post{
 	/*width: 580px;*/
-	margin-left: 20px;
-	margin-top: 20px;
-	margin-bottom: 80px;
+    margin: 20px 20px 80px;
 }
 
 .main2 .post a {
@@ -487,5 +485,34 @@ footer ul.social_profiles li a,
 	-moz-transition: .2s linear;
 	-o-transition: .2s linear;
 }
+
+/*Bulls and Cows*/
+input:focus {
+    outline: none;
+}
+.field {
+    border-radius: 100px;
+    padding: 9px 30px 9px 30px;
+    background: #ffffff;
+    border: 2px #c2c2c2 solid;
+    font-size: 18px;
+}
+.button {
+    border-radius: 100px;
+    padding: 9px 30px 9px 30px;
+    background: #ffffff;
+    border: 2px #c2c2c2 solid;
+    font-size: 18px;
+}
+.field:focus {
+    border: 2px #58c93a solid;
+    color: #58c93a;
+}
+.button:hover {
+    cursor: pointer;
+    border: 2px #58c93a solid;
+    color: #58c93a;
+}
+/*Bulls and Cows end*/
 
 
