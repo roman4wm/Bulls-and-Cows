@@ -151,7 +151,7 @@ ul.main_nav li a:hover{
 .post_text_box {
 
 }
-.post_text_box .post_image_in_text {
+body .post_text_box .post_image_in_text {
     width: 242px;
     float: left;
     margin: 0 18px 12px 0;
